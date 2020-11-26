@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.imooc</groupId>
+    <artifactId>E-Commerce-Web</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>ECommerce-dev-common</module>
+        <module>ECommerce-dev-pojo</module>
+    </modules>
+    <!--
+        1.聚合工程可以分为顶级工程和子工程，这两者的关系其实就是父子继承的关系。子模块在maven里面称为module，模块之间是平级可以相互依赖的
+        2.子模块可以使用顶级工程里所有的资源（依赖），子模块之间如果使用资源，必须构建依赖（构建关系）
+        3.一个顶级工程可以由多个不同的子工程共同组合而成
+    -->
+
+    <packaging>pom</packaging>
+
+</project>

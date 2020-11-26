@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ECommerceWeb" />
+        <module name="ECommercedevapi" />
+        <module name="ECommercedevcommon" />
+        <module name="ECommercedevmapper" />
+        <module name="ECommercedevservice" />
       </profile>
     </annotationProcessing>
   </component>

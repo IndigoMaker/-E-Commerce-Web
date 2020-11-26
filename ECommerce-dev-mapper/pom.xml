@@ -9,13 +9,16 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ECommerce-dev-pojo</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>ECommerce-dev-mapper</artifactId>
 
+    <!--
+        service -> mapper -> pojo ->common
+        service通过pojo是可以使用common中相应的方法
+    -->
     <dependencies>
         <dependency>
             <groupId>com.imooc</groupId>
-            <artifactId>ECommerce-dev-common</artifactId>
+            <artifactId>ECommerce-dev-pojo</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

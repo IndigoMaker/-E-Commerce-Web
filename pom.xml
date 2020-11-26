@@ -10,6 +10,9 @@
     <modules>
         <module>ECommerce-dev-common</module>
         <module>ECommerce-dev-pojo</module>
+        <module>ECommerce-dev-mapper</module>
+        <module>ECommerce-dev-service</module>
+        <module>ECommerce-dev-api</module>
     </modules>
     <!--
         1.聚合工程可以分为顶级工程和子工程，这两者的关系其实就是父子继承的关系。子模块在maven里面称为module，模块之间是平级可以相互依赖的

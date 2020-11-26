@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/ECommerce-dev-pojo/ECommerce-dev-pojo.iml" filepath="$PROJECT_DIR$/ECommerce-dev-pojo/ECommerce-dev-pojo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ECommerce-dev-common/ECommercedevcommon.iml" filepath="$PROJECT_DIR$/ECommerce-dev-common/ECommercedevcommon.iml" />
-    </modules>
-  </component>
-</project>
